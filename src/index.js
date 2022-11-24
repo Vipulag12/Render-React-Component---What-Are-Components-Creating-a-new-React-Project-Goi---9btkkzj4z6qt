@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 
+import{Task1} from "./react"
 
-
-ReactDOM.render(<App />, document.getElementById("root"));
+const root =ReactDOM.render(<App />, document.getElementById("root"));
+root.render(
+    <Task1/>
+)
